@@ -5,6 +5,7 @@ from typing import Any, Dict, Iterator
 # path
 ROOT = pathlib.Path("./").resolve().parent
 RAW = ROOT / "data" / "raw"
+PROCESSED = ROOT / "data" / "processed"
 
 meta_path = RAW / "metadata.jsonl"
 texts_path = RAW / "texts.jsonl"
