@@ -4,7 +4,9 @@ This repository contains exploratory analysis of Influence-IR S2ORC corpus.
 
 1. [Date of Pulication Distribution](examples/1.0_hp_dist.ipynb) notebook contains aggregated data & figure showing text presence across years;
 2. [Citation context](examples/2.0_hp_citation-context.ipynb) notebook is about graph representation of inbound & outbound citations;
-3. [Topic distribution](examples/3.0_hp_topic-distribution.ipynb) notebook detects topics present in a sample (1.5k of 9.4k documents).
+3. [Topic distribution (Top2Vec)](examples/3.0_hp_topic-distribution.ipynb) notebook detects topics present in a sample (1.5k of 9.4k documents);
+4. [Topic distribution over time (BERTopic)](examples/4.0_hp_dtm.ipynb) notebook contains bertopics implementation of 
+dynamic topic modeling (full corpus). 
 
 
 ## Usage
